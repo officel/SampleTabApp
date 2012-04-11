@@ -6,25 +6,44 @@ function AppTabGroup() {
 	var self = Ti.UI.createTabGroup();
 	
 	//create app tabs
-	var win1 = new AppWindow(L('home')),
-		win2 = new AppWindow(L('settings'));
+	var win_home    = new AppWindow(L('home')),
+		win_setting = new AppWindow(L('settings'))
+		win_list    = new AppWindow(L('list'))
+		win_image   = new AppWindow(L('image'))
+		;
 	
-	var tab1 = Ti.UI.createTab({
+	var tab_home = Ti.UI.createTab({
 		title: L('home'),
 		icon: '/images/KS_nav_ui.png',
-		window: win1
+		window: win_home
 	});
-	win1.containingTab = tab1;
+	win_home.containingTab = tab_home;
 	
-	var tab2 = Ti.UI.createTab({
+	var tab_setting = Ti.UI.createTab({
 		title: L('settings'),
 		icon: '/images/KS_nav_views.png',
-		window: win2
+		window: win_setting
 	});
-	win2.containingTab = tab2;
+	win_setting.containingTab = tab_setting;
 	
-	self.addTab(tab1);
-	self.addTab(tab2);
+	var tab_list = Ti.UI.createTab({
+		title: L('list'),
+		icon: '/images/KS_nav_ui.png',
+		window: win_list
+	});
+	win_list.containingTab = tab_list;
+	
+	var tab_image = Ti.UI.createTab({
+		title: L('image'),
+		icon: '/images/KS_nav_views.png',
+		window: win_image
+	});
+	win_image.containingTab = tab_image;
+	
+	self.addTab(tab_home);
+	self.addTab(tab_setting);
+	self.addTab(tab_list);
+	self.addTab(tab_image);
 	
 	return self;
 };
