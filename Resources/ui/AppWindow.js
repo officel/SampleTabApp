@@ -12,6 +12,18 @@ function AppWindow(title) {
 	});
 	self.add(button);
 	
+	var lbl = Ti.UI.createLabel({
+		text:L('test'),
+		height:'auto',
+		width:'auto',
+		color:'#0000ff',
+		font:{fontSize:48},
+    	textAlign:'center',
+		top:50
+	});
+	
+	self.add(lbl);
+	
 	button.addEventListener('click', function() {
 		//containingTab attribute must be set by parent tab group on
 		//the window for this work

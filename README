@@ -1,3 +1,7 @@
+このプロジェクトは Titanium Mobile のサンプルです。
+SDK 1.8.0でテストされています。
+標準のタブベーステンプレートに追記する形でちょっとずつテストをしています。
+
 Welcome to your Appcelerator Titanium Mobile Project
 
 This is tabbed application, consisting of multiple stacks of windows associated with tabs in a tab group.  A starting point for tab-based application with multiple top-level windows. Requires Titanium Mobile SDK 1.8.0+.
@@ -12,3 +16,4 @@ Titanium is Copyright (c) 2009-2012 by Appcelerator, Inc. All Rights Reserved.
 
 Titanium is licensed under the Apache Public License (Version 2). Please
 see the LICENSE file for the full license.
+
