@@ -2,6 +2,10 @@
 <resources>
 	<string name="home">Home</string>	
 	<string name="settings">Settings</string>
+	<string name="list">List</string>
+	<string name="scroll">scroll</string>
+	<string name="image">Image</string>
+	<string name="form">Form</string>
 	<string name="openWindow">Open New Window</string>
 	<string name="newWindow">New Window</string>
 </resources>

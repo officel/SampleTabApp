@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="home">ホーム</string>	
+	<string name="settings">設定</string>
+	<string name="list">リスト</string>
+	<string name="scroll">スクロール</string>
+	<string name="image">画像</string>
+	<string name="form">フォーム</string>
+	<string name="openWindow">新しいウィンドウを開く</string>
+	<string name="newWindow">新しいウィンドウ</string>
+</resources>
